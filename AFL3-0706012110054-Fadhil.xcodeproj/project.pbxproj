@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		047F875529E4EF330039CB81 /* AFL3_0706012110054_FadhilApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F875429E4EF330039CB81 /* AFL3_0706012110054_FadhilApp.swift */; };
+		047F875729E4EF330039CB81 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F875629E4EF330039CB81 /* ContentView.swift */; };
+		047F875929E4EF340039CB81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047F875829E4EF340039CB81 /* Assets.xcassets */; };
+		047F875C29E4EF340039CB81 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047F875B29E4EF340039CB81 /* Preview Assets.xcassets */; };
+		047F876629E4EF340039CB81 /* AFL3_0706012110054_FadhilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F876529E4EF340039CB81 /* AFL3_0706012110054_FadhilTests.swift */; };
+		047F877029E4EF340039CB81 /* AFL3_0706012110054_FadhilUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F876F29E4EF340039CB81 /* AFL3_0706012110054_FadhilUITests.swift */; };
+		047F877229E4EF340039CB81 /* AFL3_0706012110054_FadhilUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F877129E4EF340039CB81 /* AFL3_0706012110054_FadhilUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		047F876229E4EF340039CB81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 047F874929E4EF330039CB81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 047F875029E4EF330039CB81;
+			remoteInfo = "AFL3-0706012110054-Fadhil";
+		};
+		047F876C29E4EF340039CB81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 047F874929E4EF330039CB81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 047F875029E4EF330039CB81;
+			remoteInfo = "AFL3-0706012110054-Fadhil";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		047F875129E4EF330039CB81 /* AFL3-0706012110054-Fadhil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AFL3-0706012110054-Fadhil.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		047F875429E4EF330039CB81 /* AFL3_0706012110054_FadhilApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFL3_0706012110054_FadhilApp.swift; sourceTree = "<group>"; };
+		047F875629E4EF330039CB81 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		047F875829E4EF340039CB81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		047F875B29E4EF340039CB81 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		047F876129E4EF340039CB81 /* AFL3-0706012110054-FadhilTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AFL3-0706012110054-FadhilTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		047F876529E4EF340039CB81 /* AFL3_0706012110054_FadhilTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFL3_0706012110054_FadhilTests.swift; sourceTree = "<group>"; };
+		047F876B29E4EF340039CB81 /* AFL3-0706012110054-FadhilUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AFL3-0706012110054-FadhilUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		047F876F29E4EF340039CB81 /* AFL3_0706012110054_FadhilUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFL3_0706012110054_FadhilUITests.swift; sourceTree = "<group>"; };
+		047F877129E4EF340039CB81 /* AFL3_0706012110054_FadhilUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFL3_0706012110054_FadhilUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		047F874E29E4EF330039CB81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047F875E29E4EF340039CB81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047F876829E4EF340039CB81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		047F874829E4EF330039CB81 = {
+			isa = PBXGroup;
+			children = (
+				047F875329E4EF330039CB81 /* AFL3-0706012110054-Fadhil */,
+				047F876429E4EF340039CB81 /* AFL3-0706012110054-FadhilTests */,
+				047F876E29E4EF340039CB81 /* AFL3-0706012110054-FadhilUITests */,
+				047F875229E4EF330039CB81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		047F875229E4EF330039CB81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				047F875129E4EF330039CB81 /* AFL3-0706012110054-Fadhil.app */,
+				047F876129E4EF340039CB81 /* AFL3-0706012110054-FadhilTests.xctest */,
+				047F876B29E4EF340039CB81 /* AFL3-0706012110054-FadhilUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		047F875329E4EF330039CB81 /* AFL3-0706012110054-Fadhil */ = {
+			isa = PBXGroup;
+			children = (
+				047F875429E4EF330039CB81 /* AFL3_0706012110054_FadhilApp.swift */,
+				047F875629E4EF330039CB81 /* ContentView.swift */,
+				047F875829E4EF340039CB81 /* Assets.xcassets */,
+				047F875A29E4EF340039CB81 /* Preview Content */,
+			);
+			path = "AFL3-0706012110054-Fadhil";
+			sourceTree = "<group>";
+		};
+		047F875A29E4EF340039CB81 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				047F875B29E4EF340039CB81 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		047F876429E4EF340039CB81 /* AFL3-0706012110054-FadhilTests */ = {
+			isa = PBXGroup;
+			children = (
+				047F876529E4EF340039CB81 /* AFL3_0706012110054_FadhilTests.swift */,
+			);
+			path = "AFL3-0706012110054-FadhilTests";
+			sourceTree = "<group>";
+		};
+		047F876E29E4EF340039CB81 /* AFL3-0706012110054-FadhilUITests */ = {
+			isa = PBXGroup;
+			children = (
+				047F876F29E4EF340039CB81 /* AFL3_0706012110054_FadhilUITests.swift */,
+				047F877129E4EF340039CB81 /* AFL3_0706012110054_FadhilUITestsLaunchTests.swift */,
+			);
+			path = "AFL3-0706012110054-FadhilUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		047F875029E4EF330039CB81 /* AFL3-0706012110054-Fadhil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047F877529E4EF340039CB81 /* Build configuration list for PBXNativeTarget "AFL3-0706012110054-Fadhil" */;
+			buildPhases = (
+				047F874D29E4EF330039CB81 /* Sources */,
+				047F874E29E4EF330039CB81 /* Frameworks */,
+				047F874F29E4EF330039CB81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AFL3-0706012110054-Fadhil";
+			productName = "AFL3-0706012110054-Fadhil";
+			productReference = 047F875129E4EF330039CB81 /* AFL3-0706012110054-Fadhil.app */;
+			productType = "com.apple.product-type.application";
+		};
+		047F876029E4EF340039CB81 /* AFL3-0706012110054-FadhilTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047F877829E4EF340039CB81 /* Build configuration list for PBXNativeTarget "AFL3-0706012110054-FadhilTests" */;
+			buildPhases = (
+				047F875D29E4EF340039CB81 /* Sources */,
+				047F875E29E4EF340039CB81 /* Frameworks */,
+				047F875F29E4EF340039CB81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				047F876329E4EF340039CB81 /* PBXTargetDependency */,
+			);
+			name = "AFL3-0706012110054-FadhilTests";
+			productName = "AFL3-0706012110054-FadhilTests";
+			productReference = 047F876129E4EF340039CB81 /* AFL3-0706012110054-FadhilTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		047F876A29E4EF340039CB81 /* AFL3-0706012110054-FadhilUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047F877B29E4EF340039CB81 /* Build configuration list for PBXNativeTarget "AFL3-0706012110054-FadhilUITests" */;
+			buildPhases = (
+				047F876729E4EF340039CB81 /* Sources */,
+				047F876829E4EF340039CB81 /* Frameworks */,
+				047F876929E4EF340039CB81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				047F876D29E4EF340039CB81 /* PBXTargetDependency */,
+			);
+			name = "AFL3-0706012110054-FadhilUITests";
+			productName = "AFL3-0706012110054-FadhilUITests";
+			productReference = 047F876B29E4EF340039CB81 /* AFL3-0706012110054-FadhilUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		047F874929E4EF330039CB81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					047F875029E4EF330039CB81 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					047F876029E4EF340039CB81 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 047F875029E4EF330039CB81;
+					};
+					047F876A29E4EF340039CB81 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 047F875029E4EF330039CB81;
+					};
+				};
+			};
+			buildConfigurationList = 047F874C29E4EF330039CB81 /* Build configuration list for PBXProject "AFL3-0706012110054-Fadhil" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 047F874829E4EF330039CB81;
+			productRefGroup = 047F875229E4EF330039CB81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				047F875029E4EF330039CB81 /* AFL3-0706012110054-Fadhil */,
+				047F876029E4EF340039CB81 /* AFL3-0706012110054-FadhilTests */,
+				047F876A29E4EF340039CB81 /* AFL3-0706012110054-FadhilUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		047F874F29E4EF330039CB81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047F875C29E4EF340039CB81 /* Preview Assets.xcassets in Resources */,
+				047F875929E4EF340039CB81 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047F875F29E4EF340039CB81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047F876929E4EF340039CB81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		047F874D29E4EF330039CB81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047F875729E4EF330039CB81 /* ContentView.swift in Sources */,
+				047F875529E4EF330039CB81 /* AFL3_0706012110054_FadhilApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047F875D29E4EF340039CB81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047F876629E4EF340039CB81 /* AFL3_0706012110054_FadhilTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047F876729E4EF340039CB81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047F877229E4EF340039CB81 /* AFL3_0706012110054_FadhilUITestsLaunchTests.swift in Sources */,
+				047F877029E4EF340039CB81 /* AFL3_0706012110054_FadhilUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		047F876329E4EF340039CB81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 047F875029E4EF330039CB81 /* AFL3-0706012110054-Fadhil */;
+			targetProxy = 047F876229E4EF340039CB81 /* PBXContainerItemProxy */;
+		};
+		047F876D29E4EF340039CB81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 047F875029E4EF330039CB81 /* AFL3-0706012110054-Fadhil */;
+			targetProxy = 047F876C29E4EF340039CB81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		047F877329E4EF340039CB81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		047F877429E4EF340039CB81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		047F877629E4EF340039CB81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AFL3-0706012110054-Fadhil/Preview Content\"";
+				DEVELOPMENT_TEAM = P2G5WJ8C54;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xcodecoba.AFL3-0706012110054-Fadhil";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		047F877729E4EF340039CB81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AFL3-0706012110054-Fadhil/Preview Content\"";
+				DEVELOPMENT_TEAM = P2G5WJ8C54;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xcodecoba.AFL3-0706012110054-Fadhil";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		047F877929E4EF340039CB81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P2G5WJ8C54;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xcodecoba.AFL3-0706012110054-FadhilTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AFL3-0706012110054-Fadhil.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AFL3-0706012110054-Fadhil";
+			};
+			name = Debug;
+		};
+		047F877A29E4EF340039CB81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P2G5WJ8C54;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xcodecoba.AFL3-0706012110054-FadhilTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AFL3-0706012110054-Fadhil.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AFL3-0706012110054-Fadhil";
+			};
+			name = Release;
+		};
+		047F877C29E4EF340039CB81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P2G5WJ8C54;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xcodecoba.AFL3-0706012110054-FadhilUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AFL3-0706012110054-Fadhil";
+			};
+			name = Debug;
+		};
+		047F877D29E4EF340039CB81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P2G5WJ8C54;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xcodecoba.AFL3-0706012110054-FadhilUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AFL3-0706012110054-Fadhil";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		047F874C29E4EF330039CB81 /* Build configuration list for PBXProject "AFL3-0706012110054-Fadhil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047F877329E4EF340039CB81 /* Debug */,
+				047F877429E4EF340039CB81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047F877529E4EF340039CB81 /* Build configuration list for PBXNativeTarget "AFL3-0706012110054-Fadhil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047F877629E4EF340039CB81 /* Debug */,
+				047F877729E4EF340039CB81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047F877829E4EF340039CB81 /* Build configuration list for PBXNativeTarget "AFL3-0706012110054-FadhilTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047F877929E4EF340039CB81 /* Debug */,
+				047F877A29E4EF340039CB81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047F877B29E4EF340039CB81 /* Build configuration list for PBXNativeTarget "AFL3-0706012110054-FadhilUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047F877C29E4EF340039CB81 /* Debug */,
+				047F877D29E4EF340039CB81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 047F874929E4EF330039CB81 /* Project object */;
+}
