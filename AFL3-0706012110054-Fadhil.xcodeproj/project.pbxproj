@@ -15,6 +15,7 @@
 		047F877029E4EF340039CB81 /* AFL3_0706012110054_FadhilUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F876F29E4EF340039CB81 /* AFL3_0706012110054_FadhilUITests.swift */; };
 		047F877229E4EF340039CB81 /* AFL3_0706012110054_FadhilUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F877129E4EF340039CB81 /* AFL3_0706012110054_FadhilUITestsLaunchTests.swift */; };
 		047F877F29E4F38F0039CB81 /* circleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F877E29E4F38F0039CB81 /* circleImage.swift */; };
+		047F878129E4F4940039CB81 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F878029E4F4940039CB81 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		047F876F29E4EF340039CB81 /* AFL3_0706012110054_FadhilUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFL3_0706012110054_FadhilUITests.swift; sourceTree = "<group>"; };
 		047F877129E4EF340039CB81 /* AFL3_0706012110054_FadhilUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFL3_0706012110054_FadhilUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		047F877E29E4F38F0039CB81 /* circleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = circleImage.swift; sourceTree = "<group>"; };
+		047F878029E4F4940039CB81 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				047F875429E4EF330039CB81 /* AFL3_0706012110054_FadhilApp.swift */,
 				047F875629E4EF330039CB81 /* ContentView.swift */,
 				047F877E29E4F38F0039CB81 /* circleImage.swift */,
+				047F878029E4F4940039CB81 /* MapView.swift */,
 				047F875829E4EF340039CB81 /* Assets.xcassets */,
 				047F875A29E4EF340039CB81 /* Preview Content */,
 			);
@@ -261,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				047F877F29E4F38F0039CB81 /* circleImage.swift in Sources */,
+				047F878129E4F4940039CB81 /* MapView.swift in Sources */,
 				047F875729E4EF330039CB81 /* ContentView.swift in Sources */,
 				047F875529E4EF330039CB81 /* AFL3_0706012110054_FadhilApp.swift in Sources */,
 			);
