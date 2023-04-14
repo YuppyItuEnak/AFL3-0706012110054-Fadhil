@@ -16,6 +16,9 @@
 		047F877229E4EF340039CB81 /* AFL3_0706012110054_FadhilUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F877129E4EF340039CB81 /* AFL3_0706012110054_FadhilUITestsLaunchTests.swift */; };
 		047F877F29E4F38F0039CB81 /* circleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F877E29E4F38F0039CB81 /* circleImage.swift */; };
 		047F878129E4F4940039CB81 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F878029E4F4940039CB81 /* MapView.swift */; };
+		047F878329E4F9540039CB81 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 047F878229E4F9540039CB81 /* landmarkData.json */; };
+		047F878529E4F9760039CB81 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F878429E4F9760039CB81 /* Landmark.swift */; };
+		047F878729E8DD3E0039CB81 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F878629E8DD3E0039CB81 /* ModelData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,9 @@
 		047F877129E4EF340039CB81 /* AFL3_0706012110054_FadhilUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFL3_0706012110054_FadhilUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		047F877E29E4F38F0039CB81 /* circleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = circleImage.swift; sourceTree = "<group>"; };
 		047F878029E4F4940039CB81 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		047F878229E4F9540039CB81 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		047F878429E4F9760039CB81 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		047F878629E8DD3E0039CB81 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +105,9 @@
 			isa = PBXGroup;
 			children = (
 				047F875429E4EF330039CB81 /* AFL3_0706012110054_FadhilApp.swift */,
-				047F875629E4EF330039CB81 /* ContentView.swift */,
-				047F877E29E4F38F0039CB81 /* circleImage.swift */,
-				047F878029E4F4940039CB81 /* MapView.swift */,
+				047F878A29E8DE9E0039CB81 /* Resources */,
+				047F878929E8DE7D0039CB81 /* Model */,
+				047F878829E8DE150039CB81 /* Views */,
 				047F875829E4EF340039CB81 /* Assets.xcassets */,
 				047F875A29E4EF340039CB81 /* Preview Content */,
 			);
@@ -131,6 +137,33 @@
 				047F877129E4EF340039CB81 /* AFL3_0706012110054_FadhilUITestsLaunchTests.swift */,
 			);
 			path = "AFL3-0706012110054-FadhilUITests";
+			sourceTree = "<group>";
+		};
+		047F878829E8DE150039CB81 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				047F878029E4F4940039CB81 /* MapView.swift */,
+				047F877E29E4F38F0039CB81 /* circleImage.swift */,
+				047F875629E4EF330039CB81 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		047F878929E8DE7D0039CB81 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				047F878429E4F9760039CB81 /* Landmark.swift */,
+				047F878629E8DD3E0039CB81 /* ModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		047F878A29E8DE9E0039CB81 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				047F878229E4F9540039CB81 /* landmarkData.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +272,7 @@
 			files = (
 				047F875C29E4EF340039CB81 /* Preview Assets.xcassets in Resources */,
 				047F875929E4EF340039CB81 /* Assets.xcassets in Resources */,
+				047F878329E4F9540039CB81 /* landmarkData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +301,8 @@
 				047F878129E4F4940039CB81 /* MapView.swift in Sources */,
 				047F875729E4EF330039CB81 /* ContentView.swift in Sources */,
 				047F875529E4EF330039CB81 /* AFL3_0706012110054_FadhilApp.swift in Sources */,
+				047F878529E4F9760039CB81 /* Landmark.swift in Sources */,
+				047F878729E8DD3E0039CB81 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
