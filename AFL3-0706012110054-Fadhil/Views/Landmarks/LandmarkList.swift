@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-
+//Untuk membuat list landmark
 struct LandmarkList: View {
     @EnvironmentObject var modelData: ModelData
     @State private var showFavoriteOnly = false

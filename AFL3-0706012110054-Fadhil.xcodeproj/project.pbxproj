@@ -172,8 +172,8 @@
 		047F878829E8DE150039CB81 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				047F87A429E8FC350039CB81 /* Hikes */,
 				047F875629E4EF330039CB81 /* ContentView.swift */,
+				047F87A429E8FC350039CB81 /* Hikes */,
 				047F879F29E8FB630039CB81 /* Badges */,
 				047F879429E8F5EF0039CB81 /* Helpers */,
 				047F879329E8F5E00039CB81 /* Landmarks */,

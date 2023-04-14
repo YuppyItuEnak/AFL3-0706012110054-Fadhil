@@ -8,6 +8,7 @@ The elevation, heart rate, and pace of a hike plotted on a graph.
 import SwiftUI
 
 
+//untuk memberikan extension animasi pada grafik
 extension Animation {
     static func ripple(index: Int) -> Animation {
         Animation.spring(dampingFraction: 0.5)
@@ -16,6 +17,7 @@ extension Animation {
     }
 }
 
+//membuat grafik 
 struct HikeGraph: View {
     var hike: Hike
     var path: KeyPath<Hike.Observation, Range<Double>>
