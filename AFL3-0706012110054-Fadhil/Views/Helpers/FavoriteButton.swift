@@ -7,11 +7,12 @@
 
 import SwiftUI
 
+//Untuk menampilkan gambar favorite icon
 struct FavoriteButton: View {
     @Binding var isSet: Bool
     
     
-    //Untuk menampilkan gambar favorite icon
+    
     var body: some View {
         Button{
             isSet.toggle()
