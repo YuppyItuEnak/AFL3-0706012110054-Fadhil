@@ -10,6 +10,8 @@ import SwiftUI
 struct circleImage: View {
     var image: Image
     
+    
+    //Untuk membuat gambar berbentuk bundar
     var body: some View {
         image
             .clipShape(Circle())
