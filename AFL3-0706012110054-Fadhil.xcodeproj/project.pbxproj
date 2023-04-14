@@ -21,6 +21,7 @@
 		047F878729E8DD3E0039CB81 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F878629E8DD3E0039CB81 /* ModelData.swift */; };
 		047F878C29E8DF390039CB81 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F878B29E8DF390039CB81 /* LandmarkRow.swift */; };
 		047F878E29E8E3AB0039CB81 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F878D29E8E3AB0039CB81 /* LandmarkList.swift */; };
+		047F879029E8E5340039CB81 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F878F29E8E5340039CB81 /* LandmarkDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		047F878629E8DD3E0039CB81 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		047F878B29E8DF390039CB81 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		047F878D29E8E3AB0039CB81 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		047F878F29E8E5340039CB81 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 				047F875629E4EF330039CB81 /* ContentView.swift */,
 				047F878B29E8DF390039CB81 /* LandmarkRow.swift */,
 				047F878D29E8E3AB0039CB81 /* LandmarkList.swift */,
+				047F878F29E8E5340039CB81 /* LandmarkDetail.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -307,6 +310,7 @@
 				047F878129E4F4940039CB81 /* MapView.swift in Sources */,
 				047F875729E4EF330039CB81 /* ContentView.swift in Sources */,
 				047F878E29E8E3AB0039CB81 /* LandmarkList.swift in Sources */,
+				047F879029E8E5340039CB81 /* LandmarkDetail.swift in Sources */,
 				047F875529E4EF330039CB81 /* AFL3_0706012110054_FadhilApp.swift in Sources */,
 				047F878529E4F9760039CB81 /* Landmark.swift in Sources */,
 				047F878C29E8DF390039CB81 /* LandmarkRow.swift in Sources */,
