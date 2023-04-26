@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		045BE9A929F9878D002C5DAE /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045BE9A829F9878D002C5DAE /* FeatureCard.swift */; };
+		045BE9AD29F98804002C5DAE /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045BE9AC29F98804002C5DAE /* PageViewController.swift */; };
+		045BE9AF29F98973002C5DAE /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045BE9AE29F98973002C5DAE /* PageView.swift */; };
+		045BE9B129F98D15002C5DAE /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045BE9B029F98D15002C5DAE /* PageControl.swift */; };
 		047F875529E4EF330039CB81 /* AFL3_0706012110054_FadhilApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F875429E4EF330039CB81 /* AFL3_0706012110054_FadhilApp.swift */; };
 		047F875729E4EF330039CB81 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F875629E4EF330039CB81 /* ContentView.swift */; };
 		047F875929E4EF340039CB81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047F875829E4EF340039CB81 /* Assets.xcassets */; };
@@ -61,7 +65,24 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		045BE9DD29F992D1002C5DAE /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		045BE9A829F9878D002C5DAE /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
+		045BE9AC29F98804002C5DAE /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		045BE9AE29F98973002C5DAE /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		045BE9B029F98D15002C5DAE /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 		047F875129E4EF330039CB81 /* AFL3-0706012110054-Fadhil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AFL3-0706012110054-Fadhil.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		047F875429E4EF330039CB81 /* AFL3_0706012110054_FadhilApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFL3_0706012110054_FadhilApp.swift; sourceTree = "<group>"; };
 		047F875629E4EF330039CB81 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -127,6 +148,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		045BE9A529F9855E002C5DAE /* PageView */ = {
+			isa = PBXGroup;
+			children = (
+				045BE9AC29F98804002C5DAE /* PageViewController.swift */,
+				045BE9AE29F98973002C5DAE /* PageView.swift */,
+				045BE9B029F98D15002C5DAE /* PageControl.swift */,
+			);
+			path = PageView;
+			sourceTree = "<group>";
+		};
 		047F874829E4EF330039CB81 = {
 			isa = PBXGroup;
 			children = (
@@ -188,6 +219,7 @@
 		047F878829E8DE150039CB81 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				045BE9A529F9855E002C5DAE /* PageView */,
 				047F875629E4EF330039CB81 /* ContentView.swift */,
 				047F87B629E9319E0039CB81 /* Profiles */,
 				047F87AD29E901B10039CB81 /* Categories */,
@@ -225,6 +257,7 @@
 				047F878B29E8DF390039CB81 /* LandmarkRow.swift */,
 				047F878D29E8E3AB0039CB81 /* LandmarkList.swift */,
 				047F878F29E8E5340039CB81 /* LandmarkDetail.swift */,
+				045BE9A829F9878D002C5DAE /* FeatureCard.swift */,
 			);
 			path = Landmarks;
 			sourceTree = "<group>";
@@ -293,6 +326,7 @@
 				047F874D29E4EF330039CB81 /* Sources */,
 				047F874E29E4EF330039CB81 /* Frameworks */,
 				047F874F29E4EF330039CB81 /* Resources */,
+				045BE9DD29F992D1002C5DAE /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
@@ -419,11 +453,13 @@
 				047F87B529E9316A0039CB81 /* Profile.swift in Sources */,
 				047F877F29E4F38F0039CB81 /* circleImage.swift in Sources */,
 				047F87AF29E901CF0039CB81 /* CategoryHome.swift in Sources */,
+				045BE9A929F9878D002C5DAE /* FeatureCard.swift in Sources */,
 				047F87AA29E8FC360039CB81 /* HikeGraph.swift in Sources */,
 				047F879E29E8FB240039CB81 /* Badge.swift in Sources */,
 				047F878129E4F4940039CB81 /* MapView.swift in Sources */,
 				047F87A929E8FC360039CB81 /* GraphCapsule.swift in Sources */,
 				047F875729E4EF330039CB81 /* ContentView.swift in Sources */,
+				045BE9B129F98D15002C5DAE /* PageControl.swift in Sources */,
 				047F879229E8F5130039CB81 /* FavoriteButton.swift in Sources */,
 				047F87B329E92D910039CB81 /* CategoryItem.swift in Sources */,
 				047F87AB29E8FC360039CB81 /* HikeDetail.swift in Sources */,
@@ -432,9 +468,11 @@
 				047F87B829E931BE0039CB81 /* ProfileHost.swift in Sources */,
 				047F87A329E8FBE50039CB81 /* Hike.swift in Sources */,
 				047F879C29E8FAF80039CB81 /* RotatedBadgeSymbol.swift in Sources */,
+				045BE9AF29F98973002C5DAE /* PageView.swift in Sources */,
 				047F879A29E8FA9D0039CB81 /* BadgeSymbol.swift in Sources */,
 				047F87BE29E935DB0039CB81 /* ProfileEditor.swift in Sources */,
 				047F878E29E8E3AB0039CB81 /* LandmarkList.swift in Sources */,
+				045BE9AD29F98804002C5DAE /* PageViewController.swift in Sources */,
 				047F87AC29E8FC360039CB81 /* HikeView.swift in Sources */,
 				047F879029E8E5340039CB81 /* LandmarkDetail.swift in Sources */,
 				047F879829E8F9700039CB81 /* BadgeBackground.swift in Sources */,
