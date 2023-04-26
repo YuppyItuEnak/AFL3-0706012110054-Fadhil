@@ -15,5 +15,13 @@ struct AFL3_0706012110054_FadhilApp: App {
             ContentView()
                 .environmentObject(modelData)
         }
+        .commands{
+            LandmarkCommands()
+        }
+        #if os(macOS)
+        Settings {
+            LandmarkSettings()
+        }
+        #endif
     }
 }
