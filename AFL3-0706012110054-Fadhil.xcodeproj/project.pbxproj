@@ -335,15 +335,14 @@
 		047F878829E8DE150039CB81 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				045BE9A529F9855E002C5DAE /* PageView */,
 				047F875629E4EF330039CB81 /* ContentView.swift */,
+				045BE9A529F9855E002C5DAE /* PageView */,
 				047F87B629E9319E0039CB81 /* Profiles */,
 				047F87AD29E901B10039CB81 /* Categories */,
 				047F87A429E8FC350039CB81 /* Hikes */,
 				047F879F29E8FB630039CB81 /* Badges */,
 				047F879429E8F5EF0039CB81 /* Helpers */,
 				047F879329E8F5E00039CB81 /* Landmarks */,
-				047F87A229E8FBE50039CB81 /* Hike.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -354,6 +353,7 @@
 				047F878429E4F9760039CB81 /* Landmark.swift */,
 				047F878629E8DD3E0039CB81 /* ModelData.swift */,
 				047F87B429E9316A0039CB81 /* Profile.swift */,
+				047F87A229E8FBE50039CB81 /* Hike.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
